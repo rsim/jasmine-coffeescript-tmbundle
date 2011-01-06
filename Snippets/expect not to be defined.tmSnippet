@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>expect(${1:target}).not.toBeDefined();</string>
+	<string>expect(${1:target}).not.toBeDefined()</string>
 	<key>name</key>
 	<string>expect not to be defined</string>
 	<key>scope</key>
-	<string>source.js.jasmine</string>
+	<string>source.coffee.jasmine</string>
 	<key>tabTrigger</key>
 	<string>notd</string>
 	<key>uuid</key>

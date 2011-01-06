@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>waits($1);</string>
+	<string>waits $1</string>
 	<key>name</key>
 	<string>waits</string>
 	<key>scope</key>
-	<string>source.js.jasmine</string>
+	<string>source.coffee.jasmine</string>
 	<key>tabTrigger</key>
 	<string>wa</string>
 	<key>uuid</key>

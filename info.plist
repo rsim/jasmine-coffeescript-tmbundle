@@ -49,7 +49,7 @@
 		<dict/>
 	</dict>
 	<key>name</key>
-	<string>Jasmine</string>
+	<string>Jasmine CoffeeScript</string>
 	<key>ordering</key>
 	<array>
 		<string>EE325085-860E-4442-AE0C-643F6ACEF009</string>

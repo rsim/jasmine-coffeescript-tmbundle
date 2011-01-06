@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>expect(${1:target}).not.toBeFalsy();</string>
+	<string>expect(${1:target}).not.toBeFalsy()</string>
 	<key>name</key>
 	<string>expect not to be falsy</string>
 	<key>scope</key>
-	<string>source.js.jasmine</string>
+	<string>source.coffee.jasmine</string>
 	<key>tabTrigger</key>
 	<string>notf</string>
 	<key>uuid</key>

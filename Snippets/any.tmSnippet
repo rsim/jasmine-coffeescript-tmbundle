@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>jasmine.any($1)</string>
+	<string>jasmine.any $1</string>
 	<key>name</key>
 	<string>any</string>
 	<key>scope</key>
-	<string>source.js.jasmine</string>
+	<string>source.coffee.jasmine</string>
 	<key>tabTrigger</key>
 	<string>any</string>
 	<key>uuid</key>

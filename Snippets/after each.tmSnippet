@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>afterEach(function() {
-  $0
-});</string>
+	<string>afterEach -&gt; $0</string>
 	<key>name</key>
 	<string>after each</string>
 	<key>scope</key>
-	<string>source.js.jasmine</string>
+	<string>source.coffee.jasmine</string>
 	<key>tabTrigger</key>
 	<string>aft</string>
 	<key>uuid</key>

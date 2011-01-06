@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>expect(${1:target}).toMatch(${2:pattern});</string>
+	<string>expect(${1:target}).toMatch ${2:pattern}</string>
 	<key>name</key>
 	<string>expect to match</string>
 	<key>scope</key>
-	<string>source.js.jasmine</string>
+	<string>source.coffee.jasmine</string>
 	<key>tabTrigger</key>
 	<string>em</string>
 	<key>uuid</key>

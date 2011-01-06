@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>expect(${1:target}).toContain(${2:value});</string>
+	<string>expect(${1:target}).toContain ${2:value}</string>
 	<key>name</key>
 	<string>expect to contain</string>
 	<key>scope</key>
-	<string>source.js.jasmine</string>
+	<string>source.coffee.jasmine</string>
 	<key>tabTrigger</key>
 	<string>ec</string>
 	<key>uuid</key>

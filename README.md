@@ -1,3 +1,7 @@
+This is a tweaked version Pivotal's original Jasmine bundle for JavaScript to work with CoffeeScript.  See original README contents below.
+
+----
+
 A TextMate bundle for the Jasmine JavaScript BDD Framework.
 
 # About

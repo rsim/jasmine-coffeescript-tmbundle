@@ -3,13 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>beforeEach(function() {
-  $0
-});</string>
+	<string>beforeEach -&gt; $0
+</string>
 	<key>name</key>
 	<string>before each</string>
 	<key>scope</key>
-	<string>source.js.jasmine</string>
+	<string>source.coffee.jasmine</string>
 	<key>tabTrigger</key>
 	<string>bef</string>
 	<key>uuid</key>

@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>expect(${1:target}).toBeNull();</string>
+	<string>expect(${1:target}).toBeNull()</string>
 	<key>name</key>
 	<string>expect to be null</string>
 	<key>scope</key>
-	<string>source.js.jasmine</string>
+	<string>source.coffee.jasmine</string>
 	<key>tabTrigger</key>
 	<string>en</string>
 	<key>uuid</key>

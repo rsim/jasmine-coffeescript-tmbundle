@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>spyOn(${1:object}, "${2:method}").andCallFake(${3:function});</string>
+	<string>spyOn(${1:object}, '${2:method}').andCallFake ${3:function}</string>
 	<key>name</key>
 	<string>spy on and call fake</string>
 	<key>scope</key>
-	<string>source.js.jasmine</string>
+	<string>source.coffee.jasmine</string>
 	<key>tabTrigger</key>
 	<string>scf</string>
 	<key>uuid</key>
