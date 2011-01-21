@@ -3,7 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>beforeEach -&gt; $0
+	<string>beforeEach -&gt;
+  $0
 </string>
 	<key>name</key>
 	<string>before each</string>
