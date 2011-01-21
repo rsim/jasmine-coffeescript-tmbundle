@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Indent</string>
+	<key>settings</key>
+	<dict>
+		<key>increaseIndentPattern</key>
+		<string>(?x)
+		^\s*
+		(.*class
+		|[a-zA-Z\$_](\w|\$|:|\.)*\s*(?=\:(\s*\(.*\))?\s*((=|-)&gt;\s*$)) # function that is not one line
+		|(describe|it|beforeEach|afterEach) # Jasmine functions
+		|[a-zA-Z\$_](\w|\$|\.)*\s*(?=(?!\::)\:(?!(\s*\(.*\))?\s*((=|-)&gt;))):\s*((if|while)(?!.*?then)|for|$) # assignment using multiline if/while/for
+		|(if|while)(?!.*?then)|for
+		|.*\{$
+		|.*\[$)</string>
+	</dict>
+	<key>uuid</key>
+	<string>5C1F0CC7-A873-4373-AC4B-622E15AEC139</string>
+</dict>
+</plist>
