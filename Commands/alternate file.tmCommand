@@ -23,8 +23,8 @@ ${TM_RUBY:-ruby} /tmp/textmate-command-$$.rb; exit_status=$?; rm /tmp/textmate-c
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>scope</key>
-	<string>source.js</string>
+	<string>source.coffee</string>
 	<key>uuid</key>
-	<string>319E1B7D-8394-4CF1-8039-761704C21E45</string>
+	<string>16242E52-2517-43EE-A301-1EAF82A7E5EB</string>
 </dict>
 </plist>

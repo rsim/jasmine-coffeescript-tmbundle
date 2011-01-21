@@ -17,8 +17,8 @@ open "http://localhost:8888/"</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>scope</key>
-	<string>source.js.jasmine</string>
+	<string>source.coffee.jasmine</string>
 	<key>uuid</key>
-	<string>EC249A94-DCB0-4A31-903E-408C40F18C11</string>
+	<string>BFEEAB06-8CC9-4616-9D88-9FB8C7AF0B6F</string>
 </dict>
 </plist>

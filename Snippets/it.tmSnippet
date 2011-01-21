@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>it '${1:description}', -&gt;
-    $0
+  $0
 </string>
 	<key>name</key>
 	<string>it</string>
@@ -13,6 +13,6 @@
 	<key>tabTrigger</key>
 	<string>it</string>
 	<key>uuid</key>
-	<string>60F4EFEE-FF5D-412A-88A6-9C833541302A</string>
+	<string>9E19704B-C8D0-47E1-9F99-BBC99355F923</string>
 </dict>
 </plist>

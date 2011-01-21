@@ -4,26 +4,26 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>spec.js</string>
+		<string>spec.coffee</string>
 	</array>
 	<key>foldingStartMarker</key>
-	<string>^.*\bfunction\s*(\w+\s*)?\([^\)]*\)(\s*\{[^\}]*)?\s*$</string>
+	<string>.*(-&gt;|=&gt;)\s*$|.*[\[{]\s*$</string>
 	<key>foldingStopMarker</key>
-	<string>^\s*\}</string>
+	<string>^\s*$|^\s*[}\]]\s*$</string>
 	<key>keyEquivalent</key>
 	<string>^~J</string>
 	<key>name</key>
-	<string>Jasmine</string>
+	<string>Jasmine CoffeeScript</string>
 	<key>patterns</key>
 	<array>
 		<dict>
 			<key>include</key>
-			<string>source.js</string>
+			<string>source.coffee</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.js.jasmine</string>
+	<string>source.coffee.jasmine</string>
 	<key>uuid</key>
-	<string>EE325085-860E-4442-AE0C-643F6ACEF009</string>
+	<string>488F5D65-2EA7-4D99-9BA9-0771C6E5535D</string>
 </dict>
 </plist>

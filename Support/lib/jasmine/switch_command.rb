@@ -18,16 +18,16 @@ module Jasmine
     end
 
     def twin(path)
-      if path =~ /^(.*?)\/(public|spec)\/(.*?)$/
+      if path =~ /^(.*?)\/(app|spec)\/(.*?)$/
         framework, parent, rest = $1, $2, $3
 
         case parent
-          when 'public' then
-            path = path.gsub(/\/public\//, "/spec/")
-            path = path.gsub(/\.js$/, "_spec.js")
+          when 'app' then
+            path = path.gsub(/\/app\//, "/spec/")
+            path = path.gsub(/\.coffee$/, "_spec.coffee")
           when 'spec' then
-            path = path.gsub(/_spec\.js$/, ".js")
-            path = path.gsub(/\/spec\//, "/public/")
+            path = path.gsub(/_spec\.coffee$/, ".coffee")
+            path = path.gsub(/\/spec\//, "/app/")
         end
         return path
       end
