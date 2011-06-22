@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>expect(${1:target}).wasNotCalledWith ${2:arguments}</string>
+	<string>(expect ${1:target}).wasNotCalledWith ${2:arguments}</string>
 	<key>name</key>
 	<string>expect was not called with</string>
 	<key>scope</key>

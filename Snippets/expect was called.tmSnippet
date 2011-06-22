@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>expect(${1:target}).wasCalled()</string>
+	<string>(expect ${1:target}).wasCalled()</string>
 	<key>name</key>
 	<string>expect was called</string>
 	<key>scope</key>

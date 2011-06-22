@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>expect(${1:target}).toBeDefined()</string>
+	<string>(expect ${1:target}).toBeDefined()</string>
 	<key>name</key>
 	<string>expect to be defined</string>
 	<key>scope</key>
