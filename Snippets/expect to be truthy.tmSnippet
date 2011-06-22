@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>expect(${1:target}).toBeTruthy()</string>
+	<string>(expect ${1:target}).toBeTruthy()</string>
 	<key>name</key>
 	<string>expect to be truthy</string>
 	<key>scope</key>

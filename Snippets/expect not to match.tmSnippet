@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>expect(${1:target}).not.toMatch ${2:pattern}</string>
+	<string>(expect ${1:target}).not.toMatch ${2:pattern}</string>
 	<key>name</key>
 	<string>expect not to match</string>
 	<key>scope</key>
